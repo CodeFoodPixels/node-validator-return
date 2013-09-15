@@ -14,7 +14,6 @@ Please refer to [node-validator](https://github.com/chriso/node-validator) for d
 ## Example
 
 ```javascript
-
 var validator = require('validator-return'),
     check = validator.check,
     sanitize = validator.sanitize;
