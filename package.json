@@ -1,6 +1,6 @@
 {
   "name": "validator-return",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Catches and returns the error from node-validator instead of just throwing it",
   "main": "index.js",
   "scripts": {
@@ -13,5 +13,9 @@
   "author": "Luke Bonaccorsi",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "6de6bd5d05b1440960521367c86cb00e9aa975dd"
+  "gitHead": "6de6bd5d05b1440960521367c86cb00e9aa975dd",
+  "dependencies": {
+    "validator": "~1.5.1"
+  },
+  "devDependencies": {}
 }
