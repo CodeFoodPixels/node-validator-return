@@ -1,0 +1,17 @@
+{
+  "name": "validator-return",
+  "version": "0.0.1",
+  "description": "Catches and returns the error from node-validator instead of just throwing it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukeb-uk/node-validator-return.git"
+  },
+  "author": "Luke Bonaccorsi",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "6de6bd5d05b1440960521367c86cb00e9aa975dd"
+}
