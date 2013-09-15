@@ -19,13 +19,17 @@ var validator = require('validator-return'),
     check = validator.check,
     sanitize = validator.sanitize;
 
-console.log(check("bacon").isEmail().errors()); // Prints true to the console
+// Prints true to the console
+console.log(check("bacon").isEmail().errors());
 
-console.log(check("tasty@bacon.com").isEmail().errors()); // Prints false to the console
+// Prints false to the console
+console.log(check("tasty@bacon.com").isEmail().errors());
 
-console.log(check("bacon").isEmail().errors(true)); // Prints an array containing 'Invalid Email' to the console
+// Prints an array containing 'Invalid Email' to the console
+console.log(check("bacon").isEmail().errors(true));
 
-console.log(check("tasty@bacon.com").isEmail().errors(true)); // Prints false to the console
+// Prints false to the console
+console.log(check("tasty@bacon.com").isEmail().errors(true));
 ```
 
 ## Usage
